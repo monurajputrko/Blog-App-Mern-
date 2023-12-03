@@ -1,14 +1,14 @@
 {
-  "name": "blog-app",
+  "name": "blog-app-mern",
   "version": "1.0.0",
-  "description": "blog app",
+  "description": "blog app MERN",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm start\" \"npm run client\""
   },
-  "author": "Premjeet-yadav",
+  "author": "Monu Singh",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
