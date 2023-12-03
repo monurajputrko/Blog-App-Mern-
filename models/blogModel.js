@@ -24,7 +24,7 @@ const blogSchema = new mongoose.Schema(
       require: [true, "user id is required"],
     },
   },
-  { timestamps: true }
+  
 );
 
 const blogModel = mongoose.model("Blog", blogSchema);
